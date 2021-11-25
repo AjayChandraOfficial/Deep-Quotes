@@ -1,0 +1,53 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #008080;
+  position: relative;
+  box-shadow: 0 4px 6px 4px rgb(91 164 164 / 20%);
+}
+
+.logo {
+  width: 4rem;
+  color: rgb(226, 244, 248);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  color: rgb(226, 244, 248);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #88dfdf;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: #e6fcfc;
+  border-top: 2px solid #b0e7e7;
+}
+
+.audio {
+  position: absolute;
+  right: 3rem;
+  top: 0.3rem;
+}
